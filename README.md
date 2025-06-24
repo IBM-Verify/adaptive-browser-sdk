@@ -2,7 +2,7 @@
 ![npm](https://img.shields.io/npm/v/adaptive-browser-sdk.svg?style=plastic)
 ![NPM](https://img.shields.io/npm/l/adaptive-browser-sdk.svg?colorB=blue&style=plastic)
 
-# IBM Security Verify Adaptive Browser SDK
+# IBM Verify Adaptive Browser SDK
 
 The purpose of the Browser SDK is to enable a developer to initiate a collection process, and verify the collected data. The collection process consists of the SDK collection device information, which will be assigned to a session identifier, and evaluated at later points in time. This SDK is to be used in conjunction with the Proxy SDK, which will be responsible for evaluating the session identifier during authentication.
 
@@ -11,7 +11,7 @@ The purpose of the Browser SDK is to enable a developer to initiate a collection
 - Configure and set up the Proxy SDK on your server. Check out the [Adding the proxy SDK to an application](https://docs.verify.ibm.com/verify/docs/developing-a-native-web-application#add-the-proxy-sdk-to-the-application) to get started.
 
 ##  Installation
-After setting up the Proxy SDK on your server, you can install the IBM Security Verify Adaptive Browser SDK by cloning this repository, or installing from [npm](https://www.npmjs.com/package/@ibm-verify/adaptive-browser).
+After setting up the Proxy SDK on your server, you can install the IBM Verify Adaptive Browser SDK by cloning this repository, or installing from [npm](https://www.npmjs.com/package/@ibm-verify/adaptive-browser).
 
 ```bash
 npm install @ibm-verify/adaptive-browser
