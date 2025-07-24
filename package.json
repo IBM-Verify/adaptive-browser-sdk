@@ -1,5 +1,5 @@
 {
-  "name": "@ibm-verify/adaptive-browser-sdk",
+  "name": "@ibm-verify/adaptive-browser",
   "version": "1.7.0",
   "description": "",
   "main": "adaptive-v1.js",
