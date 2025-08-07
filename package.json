@@ -1,0 +1,33 @@
+{
+  "name": "adaptive-browser-sdk",
+  "version": "1.6.0",
+  "description": "",
+  "main": "adaptive-v1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -r node_modules package-lock.json",
+    "build": "./node_modules/browserify/bin/cmd.js lib/adaptive-v1.js -o dist/adaptive-v1.js -t [ babelify --presets [ @babel/preset-env ] ] && node_modules/.bin/babel-minify dist/adaptive-v1.js -o dist/adaptive-v1.min.js"
+  },
+  "keywords": [],
+  "author": "IBM Verify <verify@au1.ibm.com>",
+  "contributors": [
+    "Carsten Hagemann <chageman@au1.ibm.com>"
+  ],
+  "bugs": "https://github.ibm.com/IBM-Verify/adaptive-browser-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/IBM-Verify/adaptive-browser-sdk"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-minify": "^0.5.2",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.5",
+    "regenerator": "^0.14.12"
+  }
+}
